@@ -1,0 +1,43 @@
+:root {
+  --primary: #153360;
+  --secondary: #ffc021;
+  --black: #131110;
+  --light: #0097fc;
+  --white: #ffffff;
+  --shadow: 0px 23px 21px -8px rgba(0, 0, 0, 0.25);
+  --bg-dark: rgb(21, 51, 96) linear-gradient(175deg, rgb(26, 44, 70) 34%, rgba(0, 0, 0, 1) 83%);
+  --bg-light: rgb(196, 213, 219) linear-gradient(175deg, rgba(196, 213, 219, 1) 34%, rgba(255, 246, 214, 1) 83%);
+}
+[data-theme='dark'] {
+  --primary: #ffc021;
+  --secondary: #153360;
+  --white: #131110;
+  --black: #ffffff;
+  --light: #eac568;
+  --shadow: 0px 23px 21px -8px rgba(0, 0, 0, 0.25);
+  --bg-light: rgb(21, 51, 96) linear-gradient(175deg, rgb(26, 44, 70) 34%, rgba(0, 0, 0, 1) 83%);
+  --bg-dark: rgb(196, 213, 219) linear-gradient(175deg, rgba(196, 213, 219, 1) 34%, rgba(255, 246, 214, 1) 83%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.primaryText {
+  color: #1f3e72;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.orangeText {
+  color: #ffc021;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.secondaryText {
+  color: rgb(140 139 139);
+  font-size: 0.9rem;
+}

@@ -1,0 +1,145 @@
+.header {
+  background: var(--bg-light);
+  border-radius: 20px;
+  padding: 30px;
+}
+.h-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gambar {
+  max-height: 600px;
+  box-shadow: var(--shadow);
+}
+.h-left {
+  padding-right: 60px;
+  padding-left: 20px;
+  text-align: justify;
+  display: inline;
+  align-items: center;
+}
+.Aboutme {
+  color: var(--primary);
+  font-size: 45px;
+  font-weight: bold;
+}
+.Contact {
+  color: var(--primary);
+  font-size: 40px;
+  font-weight: bold;
+}
+.nama {
+  color: var(--black);
+  font-size: 25px;
+  font-weight: bold;
+}
+.desc {
+  color: var(--black);
+  font-size: 12px;
+}
+.logo {
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 399ms ease-in;
+}
+.logo:hover {
+  scale: 1.022;
+  box-shadow: var(--shadow);
+}
+.logocontact {
+  max-height: 25px;
+}
+@media (max-width: 1600px) {
+  .header {
+    background: var(--bg-light);
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .gambar {
+    max-height: 550px;
+    box-shadow: var(--shadow);
+  }
+  .header {
+    background: var(--bg-light);
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 5px;
+  }
+  .h-left {
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+  .Aboutme {
+    font-size: 35px;
+  }
+  .Contact {
+    font-size: 35px;
+  }
+  .nama {
+    font-size: 15px;
+  }
+  .desc {
+    font-size: 13px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    background: var(--bg-light);
+    border-radius: 10px;
+  }
+  .h-right {
+    padding-left: 30px;
+  }
+  .h-left {
+    padding-right: 10px;
+    padding-left: 20px;
+    text-align: justify;
+  }
+  .Aboutme {
+    font-size: 30px;
+  }
+  .Contact {
+    font-size: 30px;
+  }
+  .nama {
+    font-size: 15px;
+  }
+  .desc {
+    font-size: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 990px) {
+  .Aboutme {
+    font-size: 30px;
+    text-align: center;
+  }
+  .Contact {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nama {
+    font-size: 15px;
+    text-align: center;
+  }
+  .desc {
+    font-size: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+  .gambar {
+    max-height: 400px;
+    box-shadow: var(--shadow);
+  }
+  .contact-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

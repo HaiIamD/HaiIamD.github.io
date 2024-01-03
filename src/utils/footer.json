@@ -1,0 +1,31 @@
+[
+  {
+    "link": "https://www.facebook.com/dimasthoriq.thoriq/",
+    "image": "./fb.png"
+  },
+  {
+    "link": "https://github.com/HaiIamD",
+    "image": "./gt.png"
+  },
+  {
+    "link": "https://www.instagram.com/dimmts_/",
+    "image": "./ig.png"
+  },
+
+  {
+    "link": "mailto:dimmts19@gmail.com",
+    "image": "./gg.png"
+  },
+  {
+    "link": "https://www.tiktok.com/@callmwd?is_from_webapp=1&sender_device=pc",
+    "image": "./tiktok.png"
+  },
+  {
+    "link": "https://linkedin.com/in/dimas-toriq-sibarani-5277751bb",
+    "image": "./link.png"
+  },
+  {
+    "link": "https://www.youtube.com/@dimastoriq7480",
+    "image": "./yt.png"
+  }
+]

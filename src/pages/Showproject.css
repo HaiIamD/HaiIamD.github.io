@@ -1,0 +1,118 @@
+.HeadShow {
+  background-color: rgba(107, 107, 107, 0.225);
+  border-radius: 30px;
+  margin-bottom: 85px;
+}
+.Title {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--secondary);
+}
+.tech {
+  font-size: 20px;
+  color: var(--white);
+}
+.image {
+  background: var(--bg-light);
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.imagegambar {
+  max-width: 50px;
+  max-height: 50px;
+}
+.gambarbesar {
+  transition: all 399ms ease;
+  cursor: pointer;
+}
+.gambarbesar:hover {
+  scale: 1.05;
+  transition: all 399ms ease;
+}
+.Github {
+  background: var(--secondary);
+  margin-top: 10px;
+  padding: 10px;
+}
+.GithubCode {
+  text-decoration: none;
+  color: var(--black);
+}
+.Github:hover {
+  background: var(--white);
+  color: var(--black);
+}
+.another {
+  border: none;
+  background: var(--secondary);
+  color: var(--black);
+  padding: 10px;
+  padding-inline: 70px;
+}
+.another:hover {
+  background: var(--white);
+  color: var(--black);
+}
+.descDetail {
+  font-size: 13px;
+  text-align: justify;
+  color: var(--white);
+  min-height: 290px;
+  max-height: 100px;
+  overflow: scroll;
+}
+.descDetail::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: set background color */
+}
+@media (max-width: 1400px) {
+  .Title {
+    text-align: center;
+  }
+  .tech {
+    text-align: center;
+  }
+  .kotak {
+    background: transparent;
+
+    align-items: center;
+    justify-content: center;
+  }
+  .imagegambar {
+    max-width: 50px;
+    max-height: 50px;
+  }
+  .Github {
+    display: block;
+  }
+  .another {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .descDetail {
+    font-size: 18px;
+    text-align: justify;
+    color: var(--white);
+    min-height: 290px;
+    max-height: 100px;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 500px) {
+  .Title {
+    text-align: center;
+    font-size: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .Title {
+    text-align: center;
+    font-size: px;
+  }
+}

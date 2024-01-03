@@ -1,0 +1,78 @@
+.cardUtama {
+  max-width: 540px;
+  transition: all 399ms ease-in;
+  background: var(--white);
+  color: var(--black);
+}
+
+.cardUtama:hover {
+  scale: 1.022;
+  box-shadow: var(--shadow);
+}
+
+.project {
+  color: var(--secondary);
+  font-weight: bold;
+  z-index: 1;
+}
+.project2 {
+  color: var(--white);
+  font-weight: 600;
+  z-index: 1;
+}
+.project3 {
+  color: var(--white);
+  font-weight: 400;
+  max-width: 80%;
+  text-align: justify;
+  z-index: 1;
+}
+.besarCardDesc {
+  min-height: 80px;
+  max-height: 80px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: 13px;
+}
+.detail {
+  transition: all 399ms ease-in-out;
+  background: rgb(73, 73, 73);
+  color: white;
+}
+.detail:hover {
+  background-color: var(--black);
+  color: var(--white);
+  scale: 1.022;
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 1200px) {
+  .headProject {
+    text-align: center;
+  }
+  .project3 {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 990px) {
+  .gambarProject {
+    max-width: 260px;
+  }
+}
+@media (max-width: 764px) {
+  .gambarProject {
+    max-width: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .over {
+    max-height: 850px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .over::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+    background: transparent; /* Optional: set background color */
+  }
+}

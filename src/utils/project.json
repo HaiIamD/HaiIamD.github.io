@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Nebula Nex",
+    "desc": "Nebula Nex, where we empower you to unleash your creativity effortlessly. Our platform seamlessly integrates simple yet powerful CRUD functions, enabling your ideas to soar within the vast digital landscape. With the ability to create, edit, and delete notes seamlessly, Nebulanex transforms the note-taking process into a smooth and enjoyable experience. Your privacy and security are paramount to us, and Nebulanex ensures a secure login through Google Authentication, utilizing robust security measures to safeguard your notes. Rest assured that your digital workspace is fortified by the strength and reliability of Google's authentication protocols. Bid farewell to scattered thoughts and disorganized notes as Nebulanex provides a seamless organizational experience. Categorize and structure your notes in alignment with your thinking, reveling in the freedom of a clutter-free mind as you effortlessly navigate through your digital thoughts and bring order to the chaos of creativity.",
+    "gambar": ["./gambar1.png", "./gambar2.png", "./gambar3.png"],
+    "technology": ["./nodejs.png", "./mongodb.png", "./expressjs.png", "./bootstrap.png"],
+    "github": "https://github.com/HaiIamD/NebulaNex",
+    "like": "20000"
+  },
+  {
+    "id": 2,
+    "title": "EtherealRhythmsD",
+    "desc": "EtherealRhythmsD, a sophisticated and intuitive music player, is meticulously crafted to enhance your auditory experience. This web application offers a seamless and immersive platform, inviting music enthusiasts to explore and savor their favorite tunes. Emphasizing simplicity, elegance, and user-friendliness, EtherealRhythmsD presents a clean and intuitive user interface that facilitates effortless navigation and interaction with your music collection, ensuring an enjoyable experience for users of all levels. With dynamic playlist management, users can customize their music queue on the fly, adding, removing, and rearranging songs with ease. The inclusion of a dedicated Favorites Page allows users to curate a personalized list of cherished tracks, effortlessly adding or removing songs to create a collection that mirrors their unique musical taste. Furthermore, the responsive design ensures a consistent and enjoyable experience across desktops, tablets, and mobile devices, adapting to different screen sizes and providing flexibility for users on the go.",
+    "gambar": ["./gambar4.png", "./gambar5.png", "./gambar6.png"],
+    "technology": ["./js.png", "./bootstrap.png"],
+    "github": "https://github.com/HaiIamD/EtherealRhythmsD",
+    "like": "18500"
+  },
+  {
+    "id": 3,
+    "title": "Movie Poster",
+    "desc": "This project introduces a dynamic and visually captivating platform designed to showcase movie posters, elevating your movie catalog through an effortlessly accessible website that harnesses the capabilities of the OMDb API. With a focus on enhancing the user experience, the platform offers eye-catching movie posters that add flair to your collection, coupled with detailed information providing comprehensive insights into each film. The intuitive design ensures a user-friendly interface, promoting seamless navigation for an enhanced browsing experience. Additionally, the inclusion of a smart search feature allows users to easily locate movies by title, actor, or keywords, further enriching the overall functionality of the website.",
+    "gambar": ["./gambar7.png", "./gambar8.png", "./gambar9.png"],
+    "technology": ["./js.png", "./bootstrap.png", "./postman.png"],
+    "github": "https://github.com/HaiIamD/Movie-Poster-API",
+    "like": "19800"
+  },
+  {
+    "id": 4,
+    "title": " RESTful API for Book ",
+    "desc": "Unveiling a groundbreaking RESTful API for Book Management! 📚✨ Dive into a realm of enhanced possibilities with my latest creation, offering a seamless and efficient solution for managing books. This robust API empowers your applications by providing streamlined access to a vast array of book data, coupled with easy CRUD operations. From captivating book covers to detailed information, the API ensures a visually appealing and informative platform. With an intuitive design for user-friendly navigation and a smart search feature, finding and managing books has never been more effortless. Revolutionize your book-related data handling and elevate your applications to new heights with this dynamic and versatile tool. 🚀📖",
+    "gambar": ["./gambar10.png", "./gambar11.png", "./gambar12.png"],
+    "technology": ["./nodejs.png", "./expressjs.png", "./bootstrap.png", "./mongodb.png", "./postman.png"],
+    "github": "https://github.com/HaiIamD",
+    "like": "16000"
+  }
+]

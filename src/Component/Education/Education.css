@@ -1,0 +1,98 @@
+.education {
+  min-height: 450px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+}
+.Activity {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 900;
+  color: var(--primary);
+}
+.Eleft {
+  background: var(--bg-light);
+  padding: 20px;
+}
+.judulActivity {
+  padding: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+  background: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.descActivity {
+  padding: 10px;
+  min-height: 220px;
+  max-height: 220px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: justify;
+  margin-right: 5px;
+  margin-left: 5px;
+  background: rgb(255, 255, 255);
+}
+.Eright {
+  background: transparent;
+}
+.Education {
+  padding-top: 15px;
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--secondary);
+}
+.descEducation {
+  font-size: 12px;
+  color: rgb(175, 173, 171);
+}
+.btnEducation {
+  padding: 8px;
+  background: var(--primary);
+  color: white;
+  font-size: 14px;
+}
+.btnEducation:hover {
+  padding: 8px;
+  background: var(--bg-light);
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+}
+.accordionItem {
+  background: white;
+  border-radius: 15px;
+}
+.accordionButton {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.eduTitle {
+  font-size: 15px;
+}
+.secondaryText {
+  min-height: 120px;
+  max-height: 120px;
+  overflow: scroll;
+  font-size: 13px;
+  text-align: justify;
+}
+.secondaryText::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: set background color */
+}
+
+@media (max-width: 990px) {
+  .Eright {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

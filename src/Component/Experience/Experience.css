@@ -1,0 +1,39 @@
+.experience {
+  color: var(--secondary);
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+.countdown {
+  font-size: 30px;
+}
+.angka {
+  color: var(--white);
+  font-weight: 500;
+}
+.countdownicon {
+  padding-left: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--secondary);
+}
+.countdowndesc {
+  color: var(--white);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+@media (max-width: 1200px) {
+  .experience {
+    font-size: 30px;
+  }
+  .countdown {
+    font-size: 23px;
+  }
+  .countdownicon {
+    padding-left: 5px;
+    font-size: 26px;
+  }
+  .countdowndesc {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "name": "ReactJS",
+    "image": "./reactjs.png"
+  },
+  {
+    "name": "NodeJS",
+    "image": "./nodejs.png"
+  },
+  {
+    "name": "ExpressJS",
+    "image": "./expressjs.png"
+  },
+  {
+    "name": "MongoDB",
+    "image": "./mongodb.png"
+  },
+  {
+    "name": "Javascript",
+    "image": "./js.png"
+  },
+  {
+    "name": "Bootstrap",
+    "image": "./bootstrap.png"
+  },
+  {
+    "name": "Figma",
+    "image": "./figma.png"
+  },
+  {
+    "name": "Git",
+    "image": "./git.png"
+  },
+  {
+    "name": "Linux",
+    "image": "./linux.png"
+  },
+  {
+    "name": "NPM",
+    "image": "./npm.png"
+  },
+  {
+    "name": "Python",
+    "image": "./python.png"
+  },
+  {
+    "name": "Vscode",
+    "image": "./vscode.png"
+  },
+  {
+    "name": "Postman",
+    "image": "./postman.png"
+  },
+  {
+    "name": "MySql",
+    "image": "./mysql.png"
+  },
+
+  {
+    "name": "PHP",
+    "image": "./php.png"
+  }
+]
