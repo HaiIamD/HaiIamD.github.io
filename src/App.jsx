@@ -12,6 +12,7 @@ import useLocalStorage from 'use-local-storage';
 
 function App() {
   const [isDark, setIsDark] = useLocalStorage(true);
+
   return (
     <div className="App" data-theme={isDark ? 'light' : 'dark'}>
       <Navbar>

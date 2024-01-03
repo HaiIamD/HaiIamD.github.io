@@ -48,9 +48,11 @@
 .logo:hover {
   scale: 1.022;
   box-shadow: var(--shadow);
+  transition: none;
 }
 .logocontact {
-  max-height: 25px;
+  max-height: 20px;
+  transition: none;
 }
 @media (max-width: 1600px) {
   .header {

@@ -12,7 +12,7 @@ function Experience() {
       variants={fadeIn('up', 0.1)}
       initial="hidden"
       whileInView={'show'}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.3 }}
       className="container d-flex flex-wrap justify-content-center mt-2 mb-2 text-center"
     >
       <div className="row  ">
@@ -20,21 +20,21 @@ function Experience() {
         <div className="d-flex text-light ">
           <div className="col-4 d-grid ">
             <span className=" countdown">
-              <CountUp className="angka" start={0} end={4} duration={5} />
+              <CountUp className="angka" start={0} end={5} duration={7} />
               <span className="countdownicon">+</span>
             </span>
             <span className="countdowndesc">Project Done</span>
           </div>
           <div className="col-4 d-grid ">
             <div className="countdown">
-              <CountUp className="angka" start={0} end={6} duration={4} />
+              <CountUp className="angka" start={0} end={4} duration={6} />
               <span className="countdownicon">+</span>
             </div>
             <span className="  countdowndesc">Up Coming Project</span>
           </div>
           <div className="col-4 d-grid ">
             <span className=" countdown">
-              <CountUp className="angka" start={0} end={8} duration={6} />
+              <CountUp className="angka" start={0} end={8} duration={8} />
               <span className="countdownicon">+</span>
             </span>
             <span className="  countdowndesc">Technology</span>

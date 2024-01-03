@@ -9,7 +9,7 @@ import { fadeIn } from '../../utils/variant';
 function Fotter() {
   return (
     <motion.div
-      variants={fadeIn('up', 0.9)}
+      variants={fadeIn('up', 0.3)}
       initial="hidden"
       whileInView={'show'}
       viewport={{ once: false, amount: 0.5 }}

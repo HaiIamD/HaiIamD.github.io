@@ -11,7 +11,7 @@ import { fadeIn } from '../../utils/variant';
 
 function Skill() {
   return (
-    <motion.div variants={fadeIn('up', 0.4)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.5 }} className="container  my-5">
+    <motion.div variants={fadeIn('up', 0.1)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.4 }} className="container  my-5">
       <div className="row p-5 kotakskill">
         <div className="col-md-12 col-lg-3 ">
           <div className="text-center skill">skill.</div>

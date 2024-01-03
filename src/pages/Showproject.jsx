@@ -15,14 +15,14 @@ function Showproject() {
 
   return (
     <div className="">
-      <div className="container p-5 mt-5 HeadShow">
-        <div className="row mt-5 besar   ">
-          <div className="col-12 col-xl-12 col-xxl-5 me-5" bg-success>
+      <div className="container  p-5 mt-5 HeadShow">
+        <div className="row mt-5 besar">
+          <div className="col-12 col-xl-12 col-xxl-5 me-5">
             <h2 className="Title">{project.title}</h2>
             <p className="tech">Technology</p>
             <div className="row kotak">
-              {project.technology.map((data) => (
-                <div className="col-2 image my-1">
+              {project.technology.map((data, i) => (
+                <div className="col-2 image my-1" key={i}>
                   <img className="img-fluid imagegambar" src={data} alt="" />
                 </div>
               ))}
@@ -39,7 +39,7 @@ function Showproject() {
               SEE MORE PROJECT ...
             </Link>
           </div>
-          <div className="col-12 col-xl-12 col-xxl-6  " bg-success>
+          <div className="col-12 col-xl-12 col-xxl-6">
             <div className="row">
               <div className="col-12 mb-3 ">
                 <img src={project.gambar[2]} className="img-fluid rounded-4 gambarbesar" alt="" />

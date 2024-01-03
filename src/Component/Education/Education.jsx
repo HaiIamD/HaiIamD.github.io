@@ -17,10 +17,10 @@ function Education() {
     <div className="container">
       <div className="row education">
         <motion.div
-          variants={fadeIn('left', 0.9)}
+          variants={fadeIn('left', 0.1)}
           initial="hidden"
           whileInView={'show'}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.1 }}
           className="col-12 col-sm-12 col-lg-5  px-4 Eleft"
         >
           <h1 className="Activity">
@@ -37,10 +37,10 @@ function Education() {
           </Swiper>
         </motion.div>
         <motion.div
-          variants={fadeIn('left', 0.9)}
+          variants={fadeIn('left', 0.1)}
           initial="hidden"
           whileInView={'show'}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.1 }}
           className="col-12 col-sm-12 col-lg-6 Eright"
         >
           <div>
@@ -53,14 +53,13 @@ function Education() {
           <div>
             <Accordion className="downAccordion" allowMultipleExpanded={false} preExpanded={[0]}>
               {edu.map((education, i) => {
-                const [className, setClassName] = useState(null);
                 return (
-                  <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
+                  <AccordionItem className={`accordionItem`} key={i} uuid={i}>
                     <AccordionItemHeading>
                       <AccordionItemButton className="accordionButton">
-                        <AccordionItemState>{({ expanded }) => (expanded ? setClassName('expanded') : setClassName('collapsed'))}</AccordionItemState>
-
-                        <span className="eduTitle">{education.title} </span>
+                        <AccordionItemState>
+                          {({ expanded }) => <span className={`eduTitle ${expanded ? 'expanded' : 'collapsed'}`}>{education.title}</span>}
+                        </AccordionItemState>
                         <div className=" icon">
                           <MdOutlineArrowDropDown size={20} />
                         </div>

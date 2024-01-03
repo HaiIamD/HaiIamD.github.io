@@ -32,7 +32,7 @@
   cursor: pointer;
 }
 .srr {
-  transition: 399ms ease-out;
+  transition: 99ms ease-out;
 }
 .srr:hover {
   scale: 1.022;

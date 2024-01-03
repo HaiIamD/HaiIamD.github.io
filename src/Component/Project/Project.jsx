@@ -13,13 +13,13 @@ function Project() {
   return (
     <div className="container">
       <motion.div
-        variants={fadeIn('left', 0.4)}
+        variants={fadeIn('left', 0.1)}
         initial="hidden"
         whileInView={'show'}
-        viewport={{ once: false, amount: 0.5 }}
+        viewport={{ once: false, amount: 0.3 }}
         className="white-gradient"
       ></motion.div>
-      <motion.div variants={fadeIn('left', 0.4)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.5 }} className="d-grid headProject">
+      <motion.div variants={fadeIn('left', 0.1)} initial="hidden" whileInView={'show'} viewport={{ once: false, amount: 0.3 }} className="d-grid headProject">
         <h1 className="mt-3 project">Project</h1>
         <span className="project2">My latest project </span>
         <span className="my-3 project3">
@@ -31,10 +31,10 @@ function Project() {
       <div className="d-flex flex-wrap justify-content-center over">
         {data.map((datas) => (
           <motion.div
-            variants={fadeIn('up', 0.9)}
+            variants={fadeIn('up', 0.1)}
             initial="hidden"
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.8 }}
+            viewport={{ once: false, amount: 0.3 }}
             className="col-md-5 col-xl-3 mx-3 my-3"
             key={datas.id}
           >
@@ -50,7 +50,7 @@ function Project() {
                     <p className="card-text d-flex justify-content-between align-items-center">
                       <span>
                         ❤️
-                        <CountUp start={1000} end={datas.like} duration={3} />
+                        <CountUp start={100} end={datas.like} duration={5} />
                       </span>
 
                       <Link className="btn px-4 detail" to={`/${datas.id}`}>

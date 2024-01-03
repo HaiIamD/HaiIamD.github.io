@@ -12,7 +12,6 @@
   font-weight: 800;
 }
 .logos {
-  margin: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

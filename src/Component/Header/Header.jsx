@@ -11,7 +11,7 @@ function Header() {
       variants={fadeIn('up', 0.2)}
       initial="hidden"
       whileInView={'show'}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.3 }}
       className="container mt-4 mb-3 header "
     >
       <div className="row">
